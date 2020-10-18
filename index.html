@@ -7,89 +7,93 @@
 	<base href="img/">
 </head>
 <body>
-	<header>
-			<h1>Новости культуры</h1>			
-			<a><img src="logo.svg" alt="логотип"></a>
-		<nav>
-			<ul>
-				<li><a href="#">НОВОСТИ</a></li> 
-				<li><a href="#">ОБЗОРЫ</a></li> 
-				<li><a href="#">МУЗЫКА</a></li> 
-				<li><a href="#">АРХИТЕКТУРА</a></li> 
-				<li><a href="#">КИНО</a></li> 
-				<li><a href="#">ТЕАТР</a></li> 
-				<li><a href="#">ЛИТЕРАТУРА</a></li> 
-				<li><a href="#">РЕЛИГИЯ</a></li> 
-				<li><a href="#">ЖИВОПИСЬ</a></li>
+	<header class="main-header">
+			<h1 class="visually-hidden">Новости культуры</h1>			
+			<a><img src="logo.svg" alt="Новости культуры" width="347" height="47"></a>
+		<nav class="main-header-nav">
+			<ul class="site-navigation">
+				<li class="site-navigation-item"><a href="#">НОВОСТИ</a></li> 
+				<li class="site-navigation-item"><a href="#">ОБЗОРЫ</a></li> 
+				<li class="site-navigation-item"><a href="#">МУЗЫКА</a></li> 
+				<li class="site-navigation-item"><a href="#">АРХИТЕКТУРА</a></li> 
+				<li class="site-navigation-item"><a href="#">КИНО</a></li> 
+				<li class="site-navigation-item"><a href="#">ТЕАТР</a></li> 
+				<li class="site-navigation-item"><a href="#">ЛИТЕРАТУРА</a></li> 
+				<li class="site-navigation-item"><a href="#">РЕЛИГИЯ</a></li> 
+				<li class="site-navigation-item"><a href="#">ЖИВОПИСЬ</a></li>
 			</ul>
 		</nav>
     </header>
     <main>
-    	<section>
-			<a href="#"><h3>Подводный отель</h3></a>			
+    	<section class="headline">
+			<h2><a href="#">Подводный отель</a></h2>
+			<img src="underwater-hotel.jpg" width="1440" height="740" alt="Подводный отель в Дубаи">			
 			<p>Как известно, Дубай – город контрастов. Самые революционные
 			и фантастические мечты архитекторов способен воплотить в жизнь этот мегаполис, построенный на нефти и за счет нефти</p>
 		</section>
-		<section>
+		<section class="reviews">
 			<h2>ОБЗОРЫ</h2>
-			<ul>
-				<li>
+			<ul class="reviews-list">
+				<li class="reviews-item">
 					<article>
-						<a href="#"><h4><q>Шальные годы</q> Монпарнаса</h4></a>
+						<a href="#" class="reviews-link"><h3><q>Шальные годы</q> Монпарнаса</h3></a>
+						<img src="monparnasse.jpg" width="371" height="203" alt="Сцена из спектакля «Шальные годы» Монпарнаса">
 						<p>В Музее изобразительных искусств имени Пушкина с <time datetime="2020-09-29">29 сентября</time> по <time datetime="2020-11-29">29 ноября</time> проходит выставка <q>Шальные годы Монпарнаса</q></p>
 					</article>
 				</li>
-				<li>
+				<li class="reviews-item">
 					<article>
-						<a href="#"><h4>Анатомия за 30 секунд</h4></a>
+						<h3><a href="#" class="reviews-link">Анатомия за 30 секунд</a></h3>	
+						<img src="clay-in-the-hands.jpg" width="371" height="203" alt="Кусок глины в руках">		
 						<p>Сейчас, когда мир открыт нараспашку для человека
 						и его познавательных изысканий, интерес
 						к научно-популярной литературе заметно вырос</p>
 					</article>
 				</li>
-				<li>
+				<li class="reviews-item">
 					<article>
-						<a href="#"><h4>Сферические чудаки</h4></a>
+						<h3><a href="#" class="reviews-link">Сферические чудаки</a></h3>
+						<img src="spherical-eccentrics.jpg" width="371" height="203" alt="Сцена из спектакля «Чудаки и зануды»">
 						<p>Корреспондентам <q>Культурного обозревателя</q> посчастливилось побывать в театре <q>Сфера</q> на премьере спектакля <q>Чудаки и зануды</q></p>
 					</article>
 				</li>
 			</ul>
-		</section>
+		</section class="promo">
 		<section>
 			<h2>АБОНЕМЕНТЫ В ТЕАТР</h2>
-			<ul>
-				<li>
-					<p>Скидка 50% на весь сезон <time datetime="2020">2020</time></p>
+			<ul class="promo-list">
+				<li class="promo-item">
+					<h3>Скидка 50% на весь сезон <time datetime="2020">2020</time></h3>
 					<p>Покупая абонемент на сезон 2020 года вы сэкономите половину стоимости всех спектаклей</p>
 				</li>
-				<li>
-					<p>Места у сцены</p>
+				<li class="promo-item">
+					<h3>Места у сцены</h3>
 					<p>Только для обладателей абонементов будет возможность сесть поближе к сцене</p>
 				</li>
-				<li>
-					<p>Автограф-сессия актёров<p>
+				<li class="promo-item">
+					<h3>Автограф-сессия актёров</h3>
 					<p>После спектаклей у вас будет возможность пообщаться с актёрами и взять у них автограф</p>
 				</li>
 			</ul>
 			<a href="#">Смотреть</a>
 		</section>
 	</main>
-	<footer>
-		<a><img src="white-logo.svg" alt="Логотип"></a>
-		<ul>
-			<li><a href="#">НОВОСТИ</a></li> 
-			<li><a href="#">ОБЗОРЫ</a></li> 
-			<li><a href="#">МУЗЫКА</a></li> 
-			<li><a href="#">АРХИТЕКТУРА</a></li> 
-			<li><a href="#">КИНО</a></li> 
-			<li><a href="#">ТЕАТР</a></li> 
-			<li><a href="#">ЛИТЕРАТУРА</a></li> 
-			<li><a href="#">РЕЛИГИЯ</a></li> 
-			<li><a href="#">ЖИВОПИСЬ</a></li>
+	<footer class="main-footer">
+		<a><img src="white-logo.svg" alt="Новости культуры"></a>
+		<ul class="footer-navigation">
+			<li class="footer-navigation-item"><a href="#">НОВОСТИ</a></li> 
+			<li class="footer-navigation-item"><a href="#">ОБЗОРЫ</a></li> 
+			<li class="footer-navigation-item"><a href="#">МУЗЫКА</a></li> 
+			<li class="footer-navigation-item"><a href="#">АРХИТЕКТУРА</a></li> 
+			<li class="footer-navigation-item"><a href="#">КИНО</a></li> 
+			<li class="footer-navigation-item"><a href="#">ТЕАТР</a></li> 
+			<li class="footer-navigation-item"><a href="#">ЛИТЕРАТУРА</a></li> 
+			<li class="footer-navigation-item"><a href="#">РЕЛИГИЯ</a></li> 
+			<li class="footer-navigation-item"><a href="#">ЖИВОПИСЬ</a></li>
 		</ul>
-		<ul>
-			<li><a href="#"></a></li>
-			<li><a href="#"></a></li>
-			<li><a href="#"></a></li>
+		<ul class="social-list">
+			<li class="social-list-item"><a href="#">Instagram</a></li>
+			<li class="social-list-item"><a href="#">Facebook</a></li>
+			<li class="social-list-item"><a href="#">Twitter</a></li>
 		</ul>
 	</footer>
